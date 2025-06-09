@@ -3,7 +3,7 @@
 import Navbar from '@/app/components/Navbar';
 import Hero from '@/app/components/Hero';
 import Projects from '@/app/components/Projects';
-// import Skills from '@/app/components/Skills';
+import Skills from '@/app/components/Skills';
 
 export default function HomePage() {
   return (
@@ -11,7 +11,7 @@ export default function HomePage() {
       <Navbar />
       <Hero />
       <Projects />
-      {/* <Skills /> */}
+      <Skills />
     </main>
   );
 }

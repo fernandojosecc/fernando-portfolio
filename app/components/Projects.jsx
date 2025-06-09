@@ -3,7 +3,6 @@ import Card from './Card';
 export default function Projects() {
   return (
     <section className="flex flex-col items-center gap-20 py-24 px-4 bg-white" id="projects">
-      <h2 className="text-4xl font-bold text-center mb-12">Projects</h2>
 
       <Card
         title="Budget Planner Finance App"

@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@400,700&display=swap');
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+
+
+.font-lustria {
+  font-family: 'Lustria', serif;
+}
+
+.font-satoshi {
+  font-family: 'Satoshi', sans-serif;
+}
+
+
 
 @theme inline {
   --color-background: var(--background);

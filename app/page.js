@@ -1,17 +1,17 @@
 'use client';
 
-import Navbar from '@/components/Navbar';
-import Hero from '@/components/Hero';
-import Projects from '@/components/Projects';
-import Skills from '@/components/Skills';
+import Navbar from '@/app/components/Navbar';
+import Hero from '@/app/components/Hero';
+// import Projects from '@/components/Projects';
+// import Skills from '@/components/Skills';
 
 export default function HomePage() {
   return (
-    <main>
+    <main className="pt-[80px]">
       <Navbar />
       <Hero />
-      <Projects />
-      <Skills />
+      {/*<Projects />
+      <Skills /> */}
     </main>
   );
 }

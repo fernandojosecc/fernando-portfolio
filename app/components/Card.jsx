@@ -8,8 +8,9 @@ export default function Card({
 }) {
   return (
     <div
-      className={`w-full max-w-[1100px] h-auto md:h-[500px] rounded-2xl p-8 flex flex-col md:flex-row justify-between items-center ${bgColor}`}
-    >
+  className={`w-full h-full rounded-2xl p-8 flex flex-col md:flex-row justify-between items-center ${bgColor}`}
+>
+
       <div className="flex flex-col justify-between max-w-[600px] h-full">
         <h2 className="text-[30 px] font-satoshi text-3xl font-bold mb-4">{title}</h2>
         <p className="font-satoshi text-[20px] text-base mb-4">{description}</p>

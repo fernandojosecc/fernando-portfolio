@@ -1,6 +1,6 @@
 export default function Hero() {
   return (
-    <section className="pt-16  flex flex-col items-center justify-center text-center px-4 bg-white">
+    <section className="pt-16  pb-32 flex flex-col items-center justify-center text-center px-4 bg-transparent">
       <img
         src="/profile.jpg"
         alt="Fernando portrait"

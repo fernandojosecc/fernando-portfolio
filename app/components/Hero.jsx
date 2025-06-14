@@ -8,11 +8,11 @@ export default function Hero() {
       />
 
       <h1 className={`font-lustria text-[36px] md:text-[48px] mb-4`}>
-        Software Developer
+        Fernando Contreras
       </h1>
 
       <p className="font-satoshi max-w-xl text-[24px] md:text-xl text-gray-700">
-        I build responsive websites and mobile apps using JavaScript and Flutter. I love turning ideas into clean, beautiful user interfaces.
+        Full-stack developer crafting performant, scalable apps with clean code and thoughtful design.
       </p>
     </section>
   );
